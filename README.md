@@ -36,6 +36,6 @@ go vet -vettool=(which pubfncomment) ./...
 - name: install pubfncomment
   run: go install github.com/sivchari/pubfncomment/cmd/pubfncomment
 
-- name: run tenv
+- name: run pubfncomment
   run: go vet -vettool=`which pubfncomment` ./...
 ```
